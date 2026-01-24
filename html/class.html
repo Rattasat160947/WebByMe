@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: lightblue;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: coral;
+        }
+
+        #mybox {
+            width: 150px;
+            height: 150px;
+            background-color: lightgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Class Page</h1>
+    <a href="index.html">Home</a>
+
+    <div class="container">
+        <h2>This div uses the "container" class</h2>
+        <p>
+            The container class centers the content and sets a maximum width of 960 pixels.
+        </p>
+        <div class="box">
+            <p>This div uses the "box" class</p>
+        </div>
+    </div>
+    <div id="mybox">
+        <p>This div uses the "mybox"</p>
+        <script>
+            let box = document.getElementById("mybox");
+            box.addEventListener("click", function() {
+                alert("You clicked the box with ID 'mybox'!");
+            });
+        </script>
+    </div>
+</body>
+</html>

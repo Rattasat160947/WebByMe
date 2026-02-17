@@ -1,0 +1,23 @@
+/* ====================
+   CSS NESTING NOTES
+==================== */
+
+.card{
+    border: 1px solid black;
+
+    h2{
+        color: blue;
+    }
+
+    p{
+        color: gray;
+    }
+
+    button{
+        background: green;
+
+        &:hover{
+            background: red;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* DEFAULT POSITION */
+.box{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+}
+
+/* RELATIVE */
+.box1{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+/* ABSOLUTE */
+.box2{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+/* FIXED */
+.box3{
+    position: fixed;
+    left: 300px;
+    top: 200px;
+}
+
+/* relative = ขยับตัวเอง
+absolute = ลอยใน parent
+fixed = ติดหน้าจอ
+sticky = ติดตอน scroll */

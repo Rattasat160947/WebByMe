@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* เส้นขอบชิดกัน */
+}
+
+table,th,td {
+    border: solid 2px black;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 30px;
+    text-align: center; /* จัดแนวตามแกนนอน */
+    vertical-align: bottom; /* จัดแนวตามแกนตั้ง */
+    padding: 20px; /* ระยะห่างระหว่างขอบกับเนื้อหา */
+}
+
+tr:hover {
+    background-color: lightgray; /* เปลี่ยนสีพื้นหลังเมื่อเอาเมาส์ชี้ */
+}

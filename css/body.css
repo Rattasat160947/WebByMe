@@ -1,0 +1,31 @@
+/*  Element Selector */ 
+/* p{
+    color : red;
+    text-align: center;
+} */
+/* Class Selector */
+/* .box{
+    width : 100px;
+    height : 100px;
+    background-color : lightblue;
+    margin : 10px;
+} */
+/* ID Selector */
+/* #mybox{
+    width : 100px;
+    height : 100px;
+    background-color : lightgreen;
+    margin : 10px;
+} */
+
+body{
+
+    /* background-color:#d8b074;
+    background-image: url('../html/picture/animal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;*/
+
+    background: #d8b074 url('../html/picture/animal.jpg') no-repeat center/cover fixed;
+}

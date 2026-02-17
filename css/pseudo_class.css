@@ -1,0 +1,85 @@
+/* =========================
+   CSS PSEUDO CLASS NOTES
+========================= */
+
+
+/* -------------------------
+   LINK STATES
+-------------------------- */
+
+/* ลิงก์ปกติ */
+a:link{
+    color: blue;
+}
+
+/* เคยคลิกแล้ว */
+a:visited{
+    color: purple;
+}
+
+/* เอาเมาส์ชี้ */
+a:hover{
+    color: red;
+}
+
+/* กำลังกด */
+a:active{
+    color: orange;
+}
+
+
+
+/* -------------------------
+   MOUSE INTERACTION
+-------------------------- */
+
+button:hover{
+    background: green;
+    color: white;
+}
+
+button:active{
+    background: red;
+}
+
+
+
+/* -------------------------
+   INPUT STATES
+-------------------------- */
+
+input:focus{
+    border: 2px solid blue;
+}
+
+
+
+/* -------------------------
+   CHILD POSITION
+-------------------------- */
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(2){
+    color: green;
+}
+
+
+
+/* -------------------------
+   DISABLED / ENABLED
+-------------------------- */
+
+input:disabled{
+    background: lightgray;
+}
+
+input:enabled{
+    background: white;
+}

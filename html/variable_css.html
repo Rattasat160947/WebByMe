@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables Example</title>
+
+    <!-- เรียกใช้ไฟล์ CSS -->
+    <link rel="stylesheet" href="variable.css">
+</head>
+<body>
+
+    <!-- ใช้ตัวแปรหลัก -->
+    <div class="box">
+        Box ใช้ตัวแปร
+    </div>
+
+    <br>
+
+    <!-- ใช้ fallback -->
+    <p class="text">
+        ข้อความนี้ใช้ fallback color (จะเป็นสีดำ)
+    </p>
+
+    <br>
+
+    <!-- ตัวแปรเฉพาะ scope -->
+    <div class="container">
+        <p>ข้อความนี้จะเป็นสีเขียว (local variable)</p>
+        <p>ใช้ตัวแปรเฉพาะใน container</p>
+    </div>
+
+</body>
+</html>

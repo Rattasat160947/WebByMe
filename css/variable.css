@@ -1,0 +1,30 @@
+/* ======================
+   CSS VARIABLES NOTES
+====================== */
+
+/* ประกาศตัวแปรทั้งเว็บ */
+:root{
+    --main-color: blue;
+    --box-size: 100px;
+}
+
+/* ใช้ตัวแปร */
+.box{
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--main-color);
+}
+
+/* ใช้ fallback */
+.text{
+    color: var(--text-color, black);
+}
+
+/* ตัวแปรเฉพาะ scope */
+.container{
+    --local-color: green;
+}
+
+.container p{
+    color: var(--local-color);
+}
